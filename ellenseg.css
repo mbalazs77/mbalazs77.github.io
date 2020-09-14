@@ -29,3 +29,19 @@ ul li a:hover{
   background-color: white;
   color: black;
 }
+#title{
+  color: white;
+  font-size: 40px;
+
+}
+#logo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+}
+#quote{
+  color: white;
+  font-style: italic;
+
+}
