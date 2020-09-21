@@ -1,9 +1,10 @@
 body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(háttér.jpg);
+  background-image: url(pics/háttér.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   font-family: arial;
+  overflow: hidden;
 }
 ul{
   list-style-type: none;
@@ -38,10 +39,28 @@ ul li a:hover{
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
+  top: 1.2%;
 
 }
 #quote{
   color: white;
   font-style: italic;
 
+}
+h1 {
+  color: white;
+}
+.tag{
+  position: absolute;
+  width: 10%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.nev{
+  text-align: center;
+  padding: 0px 20px;
+}
+.tagok{
+  width: 100%;
 }
