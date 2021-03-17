@@ -46,6 +46,9 @@ ul li a:hover{
   font-style: italic;
 
 }
+h1{
+  color: white;
+}
 .tag{
   position: absolute;
   width: 10%;
