@@ -1,0 +1,83 @@
+body{
+  background-image: url(pics/háttér.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: arial;
+  overflow: hidden;
+}
+ul{
+  list-style-type: none;
+  float: right;
+
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px;
+
+}
+ul li a:hover{
+  background-color: white;
+  color: black;
+  transition: 0.4s ease;
+}
+.active{
+  background-color: white;
+  color: black;
+}
+#title{
+  color: white;
+  font-size: 40px;
+
+}
+#logo{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 1.2%;
+
+}
+#quote{
+  color: white;
+  font-style: italic;
+
+}
+h1 {
+  color: white;
+}
+.tag{
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border: 2px solid white;
+}
+.nev{
+  text-align: center;
+  padding: 0px 20px;
+}
+.tagok{
+  width: 100%;
+}
+.elsosor{
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-column-gap: 1em;
+
+}
+.masodiksor{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  padding-left:525px;
+  padding-right:525px;
+
+}
+.taglista > div{
+  margin-top: -12px;
+}
